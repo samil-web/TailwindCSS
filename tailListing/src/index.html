@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/css/output.css" />
+    
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav class="absolute right-0 left-0 z-10 text-white">
+      <div
+        class="w-9/12 flex justify-between mt-5 mx-auto items-center mb-5 "
+      >
+        <div class="text-lg">Tail Listing</div>
+        <div>
+          <button
+            class="text-orange-300 border-orange-300 border-x-2 border-y-2 hover:bg-orange-300 hover:text-white hover:transition-all rounded-lg px-2 py-1"
+          >
+            Add Listing
+          </button>
+        </div>
+        <div class="space-x-4">
+          <button class="text-lg">Sign in</button>
+          <button class="text-lg">Sign up</button>
+        </div>
+      </div>
+    </nav>
+    <!-- hero banner -->
+    <div class="relative h-screen">
+      <img
+        src="../src/assets/images/hero/hero_4.jpg"
+        alt=""
+        class="h-full w-full object-cover"
+      />
+      <div class="absolute inset-0 bg-black/50"></div>
+        <div class="absolute inset-0 h-full w-full">
+          <div class="flex min-h-full w-full items-center justify-center">
+            <div class="space-y-6">
+                <div class="text-white  text-center">
+            <p class="text-4xl font-bold capitalize mb-4 font-comf">
+              Discover places that people love
+            </p>
+            <p class="text-lg">We will help you to find the best places in the World!</p>
+                </div>
+                <div class="flex gap-5">
+                <div>
+                    <input type="text" placeholder="Location" class="rounded-md bg-white text-gray-600 py-3 px-4 focus:outline-none"> 
+                </div>
+                <div>
+                    <input type="text" placeholder="I am looking for..." class="rounded-md bg-white text-gray-600 py-3 px-4 focus:outline-none"> 
+                </div>
+                <div>
+                    <button class="rounded-md py-2.5 bg-amber-500 px-6 text-lg text-white hover:bg-amber-600">
+                        <a href="#" class="hover:text-amber-500">
+                            <span class="material-icons align-middle hidden md:inline-flex">search</span>
+                            
+                        </a>
+                        Search
+                    </button>
+                </div>
+            </div>
+        <div>
+            <ul class="flex gap-5 justify-center items-center text-sm text-white">
+                <li class="capitalize">
+                    <a href="#" class="hover:text-amber-500">
+                        <span class="material-icons align-middle hidden md:inline-flex">restaurant_menu</span>
+                        Restaurants
+                    </a>
+                </li>
+                <li class="capitalize">
+                    <a href="#" class="hover:text-amber-500">
+                        <span class="material-icons align-middle hidden md:inline-flex">local_cafe</span>
+                        cafe
+                    </a>
+                </li>
+                <li class="capitalize">
+                    <a href="#" class="hover:text-amber-500">
+                        <span class="material-icons align-middle hidden md:inline-flex">fitness_center</span>
+                        gym
+                    </a>
+                </li>
+                <li class="capitalize">
+                    <a href="#" class="hover:text-amber-500">
+                        <span class="material-icons align-middle hidden md:inline-flex">medication</span>
+                        hospital
+                    </a>
+                </li>
+                <li class="capitalize">
+                    <a href="#" class="hover:text-amber-500">
+                        <span class="material-icons align-middle hidden md:inline-flex">school</span>
+                        school
+                    </a>
+                    <li class="capitalize">
+                        <a href="#" class="hover:text-amber-500">
+                            <span class="material-icons align-middle hidden md:inline-flex">shopping_cart</span>
+                            shopping
+                        </a>
+                    </li>
+                </li>
+            </ul>
+        </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- body(main content) -->
+    <div class="bg-gray-200 py-12">
+        <div class="capitalize text-center font-comf space-y-4 mb-12">
+            <p class="text-gray-800 text-4xl">popular places</p>
+            <p>Discover most searched places</p>
+        </div>
+        <!-- <div class="w-9/12 flex flex-col justify-between mx-auto items-center mb-4">
+            <div class="flex w-full content-around">
+                <div class="w-1/3">
+                    
+                </div>
+                <div class="w-1/3">
+                    <p>Hello</p>
+                </div>
+                <div class="w-1/3">
+                    <p>Hello</p>
+                </div>
+            </div>
+            <div class="flex w-full content-around">
+                <div class="w-1/3">
+                    <p>Hello</p>
+                </div>
+                <div class="w-1/3">
+                    <p>Hello</p>
+                </div>
+                <div class="w-1/3">
+                    <p>Hello</p>
+                </div>
+            </div>
+        </div> -->
+        <div class="w-9/12 grid grid-rows-3 grid-cols-3 gap-5 mx-auto">
+            <div class="bg-white max-w-sm my-auto">
+                <div>
+                <img src="../src/assets/images/skynews-dentist-generic_5393494.jpg"  class="rounded-md">
+                </div>
+                <div class="w-10/12 mx-auto flex space-x-8 font-monte">
+                <div  class='flex mt-4'>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">star_half</span>
+                </div>
+            </div>
+            <div class="mt-4">
+                <p>294 Reviews</p>
+            </div>        
+        </div>
+        <div class="space-y-4 my-4">
+        <div class="w-10/12 mx-auto ">
+            <p>Dr.Max Clinic</p>
+        </div>
+        <div class="w-10/12 mx-auto flex">
+            <span class="material-icons align-middle hidden md:inline-flex">location_on</span>
+            <p>Somewhere</p>
+        </div>
+        <div class="w-10/12 flex mx-auto">
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                clinic
+            </button>
+        </div>
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                hospital
+            </button>
+        </div>
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                $$
+            </button>
+        </div>
+        </div>
+        </div>
+            </div>
+            <div class="bg-white max-w-sm my-auto">
+                <div>
+                <img src="../src/assets/images/skynews-dentist-generic_5393494.jpg"  class="rounded-md">
+                </div>
+                <div class="w-10/12 mx-auto flex space-x-8 font-monte">
+                <div  class='flex mt-4'>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">star_half</span>
+                </div>
+            </div>
+            <div class="mt-4">
+                <p>294 Reviews</p>
+            </div>        
+        </div>
+        <div class="space-y-4 my-4">
+        <div class="w-10/12 mx-auto ">
+            <p>Dr.Max Clinic</p>
+        </div>
+        <div class="w-10/12 mx-auto flex">
+            <span class="material-icons align-middle hidden md:inline-flex">location_on</span>
+            <p>Somewhere</p>
+        </div>
+        <div class="w-10/12 flex mx-auto">
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                clinic
+            </button>
+        </div>
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                hospital
+            </button>
+        </div>
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                $$
+            </button>
+        </div>
+        </div>
+        </div>
+            </div>
+        
+            <div class="bg-white max-w-sm my-auto">
+                <div>
+                <img src="../src/assets/images/skynews-dentist-generic_5393494.jpg"  class="rounded-md">
+                </div>
+                <div class="w-10/12 mx-auto flex space-x-8 font-monte">
+                <div  class='flex mt-4'>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">star_half</span>
+                </div>
+            </div>
+            <div class="mt-4">
+                <p>294 Reviews</p>
+            </div>        
+        </div>
+        <div class="space-y-4 my-4">
+        <div class="w-10/12 mx-auto ">
+            <p>Dr.Max Clinic</p>
+        </div>
+        <div class="w-10/12 mx-auto flex">
+            <span class="material-icons align-middle hidden md:inline-flex">location_on</span>
+            <p>Somewhere</p>
+        </div>
+        <div class="w-10/12 flex mx-auto">
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                clinic
+            </button>
+        </div>
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                hospital
+            </button>
+        </div>
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                $$
+            </button>
+        </div>
+        </div>
+        </div>
+            </div>
+        
+            <div class="bg-white max-w-sm my-auto">
+                <div>
+                <img src="../src/assets/images/skynews-dentist-generic_5393494.jpg"  class="rounded-md">
+                </div>
+                <div class="w-10/12 mx-auto flex space-x-8 font-monte">
+                <div  class='flex mt-4'>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">star_half</span>
+                </div>
+            </div>
+            <div class="mt-4">
+                <p>294 Reviews</p>
+            </div>        
+        </div>
+        <div class="space-y-4 my-4">
+        <div class="w-10/12 mx-auto ">
+            <p>Dr.Max Clinic</p>
+        </div>
+        <div class="w-10/12 mx-auto flex">
+            <span class="material-icons align-middle hidden md:inline-flex">location_on</span>
+            <p>Somewhere</p>
+        </div>
+        <div class="w-10/12 flex mx-auto">
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                clinic
+            </button>
+        </div>
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                hospital
+            </button>
+        </div>
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                $$
+            </button>
+        </div>
+        </div>
+        </div>
+            </div>
+        
+            <div class="bg-white max-w-sm my-auto">
+                <div>
+                <img src="../src/assets/images/skynews-dentist-generic_5393494.jpg"  class="rounded-md">
+                </div>
+                <div class="w-10/12 mx-auto flex space-x-8 font-monte">
+                <div  class='flex mt-4'>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">star_half</span>
+                </div>
+            </div>
+            <div class="mt-4">
+                <p>294 Reviews</p>
+            </div>        
+        </div>
+        <div class="space-y-4 my-4">
+        <div class="w-10/12 mx-auto ">
+            <p>Dr.Max Clinic</p>
+        </div>
+        <div class="w-10/12 mx-auto flex">
+            <span class="material-icons align-middle hidden md:inline-flex">location_on</span>
+            <p>Somewhere</p>
+        </div>
+        <div class="w-10/12 flex mx-auto">
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                clinic
+            </button>
+        </div>
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                hospital
+            </button>
+        </div>
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                $$
+            </button>
+        </div>
+        </div>
+        </div>
+            </div>
+        
+            <div class="bg-white max-w-sm my-auto">
+                <div>
+                <img src="../src/assets/images/skynews-dentist-generic_5393494.jpg"  class="rounded-md">
+                </div>
+                <div class="w-10/12 mx-auto flex space-x-8 font-monte">
+                <div  class='flex mt-4'>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">grade</span>
+                </div>
+                <div class="text-amber-400">
+                    <span class="material-icons align-middle hidden md:inline-flex">star_half</span>
+                </div>
+            </div>
+            <div class="mt-4">
+                <p>294 Reviews</p>
+            </div>        
+        </div>
+        <div class="space-y-4 my-4">
+        <div class="w-10/12 mx-auto ">
+            <p>Dr.Max Clinic</p>
+        </div>
+        <div class="w-10/12 mx-auto flex">
+            <span class="material-icons align-middle hidden md:inline-flex">location_on</span>
+            <p>Somewhere</p>
+        </div>
+        <div class="w-10/12 flex mx-auto">
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                clinic
+            </button>
+        </div>
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                hospital
+            </button>
+        </div>
+        <div>
+            <button class="rounded-md py-1.5 px-3 border text-white border-gray-100  bg-orange-300 text-sm">
+                $$
+            </button>
+        </div>
+        </div>
+        </div>
+            </div>
+        
+            
+        </div>
+        
+    </div>
+  </body>
+</html>
